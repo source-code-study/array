@@ -1,6 +1,6 @@
 import isArray from '../isArray'
 
-describe('isArray', function() {
+describe('Array.isArray', function() {
   test('isArray true', function() {
     expect(isArray([])).toBe(true)
     expect(isArray([1])).toBe(true)
